@@ -1,0 +1,331 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
+
+*{
+  margin: 0;
+  font-family: "Quicksand";
+  color: rgb(47, 44, 44);
+ 
+ 
+}
+
+
+.navbar{
+  max-width: 600px;
+  position: fixed;
+  top: 10px;
+  overflow: hidden;
+ z-index: 1000;
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* max-width: 100%; */
+ width: 500px;
+ height: 0px;
+ margin-left: 31%;
+ border: 2px solid grey;
+  /* border-bottom: 1px solid gray; */
+background-color:#fff;
+border-radius: 10px;
+}
+@media screen and (max-width: 600px) {
+  .navbar {
+    /* Reset margin and max-width for larger screens */
+    /* margin-left: 15%; */
+    max-width: 375px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+    padding-left: 15px;
+    height: 25px;
+    margin-left: 14px;
+    align-items: center;
+  }
+
+}
+.navbar h1{
+ color: #f1356d;
+ padding-right: 70px;
+  
+
+}
+.navbar .links{
+  margin-left: auto;
+}
+.navbar a{
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+
+}
+.navbar a:hover{
+  color: #f1356d;
+}
+
+.content{
+  max-width: 600px;
+  margin: 0px auto;
+  padding: 20x;
+  border: 3px solid grey;
+  padding-bottom: 360px;
+}
+
+
+
+.container{
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 50px;
+}
+
+/* blog details page */
+.blog-details{
+  max-width: 400px;
+  margin: 0px auto;
+  text-align: center;
+  border-radius: 8px;
+  
+  margin-bottom: 70px;
+  margin-top: 120px;
+  border: 0;
+ 
+
+}
+
+
+
+.blog-details h3{
+  color:#f1356d;
+  text-decoration: underline;
+  padding-right: 78%;
+  padding-top: 10px;
+ font-family: cursive;
+ 
+  
+}
+.blog-details h2{
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+.blog-details h4{
+  position: relative;
+ top: -40px;
+  margin: 30px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  
+}
+.blog-details div{
+  margin: 20px 0;
+}
+.blog-details button{
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 4px;
+  margin: 4px;
+  position: relative;
+  top:-40px;
+  left: 38%;
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 2;
+   
+}
+.blog-details .react{
+  position: relative;
+  left: -74% ;
+  top:60px
+}
+.blog-details .react .like-button{
+  background-image: url("/src/image/like.png");
+  background-size: cover; /* Adjusts the image to cover the entire container */
+  background-position: center;
+  
+  height: 38px;
+  width: 37px;
+  background-color:#fff;
+}
+.blog-details .react .dislike-button{
+  background-image: url("/src/image/dislike.png");
+  background-size: cover; /* Adjusts the image to cover the entire container */
+  background-position: center;
+  
+  height: 38px;
+  width: 37px;
+  background-color:#fff;
+}
+/* .blog-details .react .like-button :hover{
+  transform: scale(0.5);
+}
+.blog-details .react .dislike-button :hover{
+  transform: scale(0.5);
+} */
+.blog-details span{
+  font-size: 10px;
+  color: #f1356d;
+  position: relative;
+  top: -70px;
+  left: -28%;
+}
+.blog-details textarea{
+  max-width: 350px;
+  margin: 20px;
+  width: 300px;
+  height: 100px;
+}
+.blog-details .edit{
+  position: relative;
+  top:  36px;
+  margin-right: 60px;
+}
+ 
+
+.signUp{
+max-width: 400px;
+margin: 0 auto;
+text-align: center;
+border-radius: 8px;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+margin-top: 130px;
+margin-bottom: 50px;
+}
+
+.signUp label{
+  text-align: center;
+  
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+
+}
+
+.signUp h2{
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+  
+
+}
+.signUp .warning{
+  position:relative;
+  top: -500px;
+  color: red;
+}
+.signUp h6{
+  position: relative;
+  padding-right: 300px;
+  left: 13px;
+  text-decoration: underline;
+  text-align: start;
+}
+.signUp p{
+  font-size: 10px;
+  float: left;
+  text-align: center;
+
+}
+.signUp p span{
+  color: rgb(46, 46, 221);
+}
+.signUp input,.signUp select{
+  padding: 6px 18px;
+  margin: 10px 10px;
+  border:1px solid #ddd;
+  box-sizing: border-box;
+  float: left; 
+  border-radius: 5px;
+  
+  
+}
+.signUp input:hover{
+  border-color: #f1356d;
+}
+
+.signUp form div{
+  float: left;
+  display: flex;
+ 
+}
+.signUp form div label{
+ 
+  padding: 4px 19px;
+}
+
+
+.signUp textarea{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border:1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+ 
+
+}
+.signUp button{
+  background:#f1356d ;
+  color: #fff;
+  border: 0;
+  padding: 8px 25px;
+  cursor: pointer;
+  margin: 18px;
+
+} 
+/* for dashboard page */
+.dashBoard {
+  max-width: 600px;
+  margin: 40px ;
+  padding: 20x;
+}
+
+.dashBoard textarea{
+  margin-top: 50px;
+  min-height: 30px;
+  width: 100%;
+  max-width: 100%;
+  resize: vertical;
+  padding-top: 30px;
+  padding-left: 10px;
+}
+
+.dashBoard #share{
+
+  position: relative;
+  top: 80px;
+  left:70%;
+  border-radius: 4px;
+  border-style: none;
+  color:white;
+  background-color:#f1356d;
+  max-width: 100%;
+  cursor: pointer;
+  
+}
+.dashBoard .username{
+   position: absolute;
+   top:120px;
+  margin-left: 28%;
+  width: 4.3%;
+  border: 1px solid grey;
+   border-radius: 4px;
+   color: #f1356d;
+   
+   
+}
+@media screen and (max-width:600px) {
+  .dashBoard .username{
+    
+   width: 4.8em;
+      margin-left: 70%;
+  }
+  
+} 
+
+
+.not-found{
+  margin: 200px;
+  text-align: center;
+}
